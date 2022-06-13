@@ -113,6 +113,15 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.about-icons-box {
+  background-color: rgba(245, 244, 250, 1);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* ============= /COMPONENTS ============= */
 
 /* ============= HEADER ============= */
@@ -269,31 +278,6 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-.about-item::before {
-content: "";
-display: block;
-height: 120px;
-background-repeat: no-repeat;
-background-position: center;
-background-color: rgba(245, 244, 250, 1);
-margin-bottom: 30px;
-}
-.icon-details::before {
-background-image: url("../images/icon/details.svg");
-background-size: 70px;
-}
-.icon-punctuality::before {
-  background-image: url("../images/icon/clock.svg");
-background-size: 70px;
-}
-.icon-planning::before {
-background-image: url("../images/icon/planning.svg");
-background-size: 70px;
-}
-.icon-technology::before {
-background-image: url("../images/icon/technology.svg");
-background-size: 70px;
 }
 
 /* ============= /ABOUT ============= */
@@ -510,8 +494,8 @@ margin-bottom: 20px;
   width: 231px;
 }
 .footer-second-part {
- padding-top: 10.5px;
- padding-left: 70px;
+  padding-top: 10.5px;
+  padding-left: 70px;
 }
 /* ============= /FOOTER ============= */
 /* ============= PORTFOLIO HEADER ============= */
@@ -599,9 +583,9 @@ margin-bottom: 20px;
   color: var(--primary-text-color);
 }
 .our-practice {
-  font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 .portfolio-title {
   position: absolute;
