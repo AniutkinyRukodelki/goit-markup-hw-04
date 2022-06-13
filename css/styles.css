@@ -478,24 +478,25 @@ border: 1px solid rgba(33, 150, 243, 1);
 
 .footer-title {
 font-family: var(--main-font);
-font-style: bold;
 font-size: 14px;
 line-height: 1.42;
 vertical-align: top;
 letter-spacing: 3%;
 text-transform: uppercase;
 color: var(--text-color-theme-dark);
-margin-bottom: 20px;
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-first-part {
   width: 231px;
 }
+.footer-social-link {
+  margin-top: 20px;
+}
 .footer-second-part {
-  padding-top: 10.5px;
-  padding-left: 70px;
+  margin-left: 70px;
 }
 /* ============= /FOOTER ============= */
 /* ============= PORTFOLIO HEADER ============= */
